@@ -1,7 +1,7 @@
 const Discord = require ("discord.js");
 //const { readdirSync } = require('fs');
-const memberCount = require('./Redline/Redline counter/member-counter');
-const ping = require ('./Redline/Redline ping/ping');
+const memberCount = require('./member-counter');
+const ping = require ('./ping');
 //const antiCrash = require('./Anticrash/Anticrash')
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed } = require('discord.js');

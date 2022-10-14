@@ -379,7 +379,7 @@ Client.on("messageCreate", message => {
                 .setPlaceholder("Selectionnez un rôle")
                 .addOptions([
                     {
-                        label: "Céliataire",
+                        label: "Célibataire",
                         description: "Selectionnez ce rôle si vous êtes célibataire",
                         value: "celib"
                     },

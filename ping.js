@@ -20,9 +20,3 @@ module.exports = (Client, message, args) => {
         }
 
     )};
-
-
-
-
-   //${Date.now() - message.createdTimestamp}ms
-   //${Math.round(Client.ws.ping)}ms

@@ -1,8 +1,6 @@
 const Discord = require ("discord.js");
-//const { readdirSync } = require('fs');
 const memberCount = require('./member-counter');
 const ping = require ('./ping');
-//const antiCrash = require('./Anticrash/Anticrash')
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed } = require('discord.js');
 const Client =new Discord.Client({
@@ -91,7 +89,6 @@ Client.on("ready", async () => {
             { name: '⚡ㅤDémarrage du Botㅤ⚡', value: 'ㅤ', inline: false }
             )
         , components: [row]});
-    //(await Client.channels.fetch("987464552939679774")).send({content: "Cliquez sur le boutton pour ouvrir un ticket", components: [row]});*/
                                                      
 
     
@@ -177,8 +174,6 @@ Client.on("ready", async () => {
          }
      }
  });
-//Partie Commande Clear
-
 //Partie Message de Bienvenue
 
 Client.on("guildMemberAdd", async(member) => {
@@ -490,7 +485,7 @@ Client.on("interactionCreate", interaction =>{
 
 
 
-Client.login("OTkwNjM2MDgwNTY5MTMxMTE5.G7Iy6Q.unIgLI0akCKl4Nl6TUAHMFHB9MPIrtJ5wNKInY");
+Client.login("Toekn required");
 
 /*- Mémo:
 

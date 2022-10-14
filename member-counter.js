@@ -1,23 +1,4 @@
-//const Discord = require("discord.js");
-
-/*module.exports = (Client) => {
-    const channelId = ('983373482962329650')
-
-    const updateMembers = (guild) => {
-        const channel = guild.channels.cache.get('983373482962329650')
-        channel.setName(`Membres: ${guild.memberCount.toLocaleString()}`)
-    }
-
-    Client.on('guildMemberAdd', (member) => updateMembers(member.guild))
-    Client.on('guildmemberRemove', (member) => updateMembers(member.guild))
-
-    const guild = Client.guilds.cache.get('982028079188819968')
-    updateMembers(guild)
-
-}
-*/
-
-//Utile `
+//Compteur de membre
 
 module.exports = (Client) => {
     const channelId = ('993160034873778216');
